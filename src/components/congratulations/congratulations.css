@@ -1,0 +1,104 @@
+/* checkout-modal.css */
+
+.checkout-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout-items {
+  margin-bottom: 20px;
+}
+
+.checkout-item {
+  margin-bottom: 10px;
+}
+
+.total-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-radio {
+  margin-bottom: 10px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* congratulations-modal.css */
+
+.congratulations-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.congratulations-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.congratulations-content h2 {
+  color: #4caf50;
+}
+
+.congratulations-content p {
+  margin-bottom: 10px;
+}
+
+.congratulations-content .close {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333333;
+  color: #fff;
+  height: 45px;
+}
+
+.logo {
+  width: 100px; /* Adjust the logo size as needed */
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.qts-cercle {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 20px;
+  margin-right: 2px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.qts-cercle p {
+  font-size: 13px;
+  font-weight: 900;
+}

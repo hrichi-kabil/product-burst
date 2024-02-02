@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.cart-dialog {
+  display: none;
+  /* Additional styling for the closed state */
+}
+
+.cart-dialog.open {
+  display: flex;
+  /* Additional styling for the open state */
+}
+
+/* Additional styling for other elements in your components */
+
+.container-page {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.description-container {
+  width: 50vw;
+  background-color: rgba(210, 226, 243, 0.442);
+  /* margin-left: 100%; */
+  /* animation: slideFromRightToLeft 0.5s forwards; */
+
+  padding: 20px;
+  background-color: #ababab;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.piece-info {
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: #89ae53;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #728c36;
+}
+
+.close-icon {
+  margin-top: 20px;
+  color: #89ae53;
+}
+
+@keyframes slideFromRightToLeft {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.close-icon {
+  position: absolute;
+  right: 70px;
+  top: 30px;
+  color: #000;
+}
